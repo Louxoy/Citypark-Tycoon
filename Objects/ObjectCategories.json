@@ -1,0 +1,128 @@
+[
+  {
+    "AvailableOn": [
+      "Playgrounds",
+      "Stalls"
+    ],
+    "Name": "Stats",
+    "Categories": [
+      {
+        "Properties": [
+          [
+            {
+              "Properties": [
+                {
+                  "InteractionType": {
+                    "TimeFrames": [
+                      [
+                        5
+                      ],
+                      [
+                        30
+                      ],
+                      [
+                        60
+                      ]
+                    ],
+                    "Name": "History"
+                  },
+                  "Name": "History"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "Properties": [
+                {
+                  "InteractionType": {
+                    "TimeFrames": [
+                      [
+                        5
+                      ],
+                      [
+                        15
+                      ],
+                      [
+                        30
+                      ]
+                    ],
+                    "Name": "History"
+                  },
+                  "Name": "History"
+                }
+              ]
+            }
+          ]
+        ],
+        "Name": "Stats"
+      }
+    ]
+  },
+  {
+    "AvailableOn": [
+      "Playgrounds",
+      "Stalls",
+      "ExceptionObjects"
+    ],
+    "Name": "Appearance",
+    "Properties": {
+      "Delete": {
+        "InteractionType": "Delete",
+        "Name": "Delete"
+      }
+    },
+    "Categories": [
+      {
+        "Properties": [
+          {
+            "InteractionType": "BrickColor",
+            "Name": "Color1"
+          },
+          {
+            "InteractionType": "BrickColor",
+            "Name": "Color2"
+          }
+        ],
+        "Name": "Colors"
+      },
+      {
+        "Move": {
+          "InteractionType": "BuildingMode",
+          "Name": "Move"
+        },
+        "Name": "Position"
+      }
+    ]
+  },
+  {
+    "AvailableOn": [
+      "Playgrounds",
+      "Stalls",
+      "ExceptionObjects"
+    ],
+    "Name": "Configuration",
+    "Properties": [
+      {
+        "InteractionType": {
+          "MaxLength": 50,
+          "Name": "TextBox",
+          "Type": "String"
+        },
+        "Name": "Name"
+      },
+      {
+        "InteractionType": {
+          "MaxLength": 7,
+          "Name": "TextBox",
+          "Type": "Number"
+        },
+        "Name": "Price"
+      },
+      {
+        "Name": "Set cost of all ___OBJECT_NAME___ to this price"
+      }
+    ],
+    "Categories": []
+  }
+]
